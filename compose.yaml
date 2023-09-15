@@ -1,0 +1,9 @@
+services:
+  container:
+    build:
+      context: .
+      args: 
+        - PASSWORD
+    ports:
+      - 23:22
+    
